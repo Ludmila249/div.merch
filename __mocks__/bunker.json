@@ -1,0 +1,1250 @@
+{
+  "menu": [
+    {
+      "text": "Главная",
+      "href": "#"
+    },
+    {
+      "text": "Коллекции",
+      "href": "#"
+    },
+    {
+      "text": "Все товары",
+      "href": "#"
+    },
+    {
+      "text": "Категории",
+      "href": "#"
+    }
+  ],
+
+  "catalog": [
+    {
+      "vendorCode": "p1",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1000",
+      "category": "Socks",
+      "color": ["White", "black"],
+      "size": ["S", "M", "L"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "p2",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1050",
+      "category": "Socks",
+      "color": ["White", "black", "Byzantine"],
+      "size": ["S", "M", "L"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p3",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1100",
+      "category": "Socks",
+      "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples"],
+      "size": ["S", "M", "L"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p4",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1150",
+      "category": "Socks",
+      "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples"],
+      "size": ["S", "M", "L"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p5",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1200",
+      "category": "Socks",
+      "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples", "Intense yellow-green", "Moderate purple red", "Bananamania", "Olive Green Crayola"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p6",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1250",
+      "category": "Socks",
+      "color": ["Moderate purple red", "Byzantine", "Magenta Crayola", "amaranth"],
+      "size": ["S", "M", "L", "XL", "XXL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "p7",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1300",
+      "category": "Socks",
+      "color": ["White", "Cadet Blue Crayola", "black", "Bananamania"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "p8",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "350",
+      "category": "Socks",
+      "color": ["sky blue", "Light grey-blue", "Brilliant blue", "pastel turquoise", "Cadet Blue Crayola"],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p9",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1400",
+      "category": "Socks",
+      "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "amaranth", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green"],
+      "size": ["S", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p10",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1450",
+      "category": "Socks",
+      "color": ["Asparagus Crayola", "Dark salmon", "Magenta Crayola", "Byzantine", "Intense yellow-green", "Brilliant green", "Gentle olive", "Light grey-blue", "Moderate purple red", "sky blue", "Olive Green Crayola", "Bananamania", "black"],
+      "size": ["S", "M", "L", "XL", "XXL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p11",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "500",
+      "category": "Socks",
+      "color": ["black", "Olive Green Crayola", "Moderate purple red", "Gentle olive", "Intense yellow-green", "Magenta Crayola", "Asparagus Crayola", "Christmas tree color", "Light bluish green", "Brilliant blue", "Cadet Blue Crayola", "deep purple"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p12",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "999",
+      "category": "Socks",
+      "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "amaranth"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "p13",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "9990",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p14",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1120",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p15",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "909",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p16",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "769",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p17",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "100",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p18",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "1399",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p19",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "134",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p20",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "837",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p21",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "661",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "p22",
+      "src": "../static/socks.png",
+      "type": "Носки мужские",
+      "name": "Дизайнер с душой",
+      "price": "876",
+      "category": "Socks",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "w1",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "1500",
+      "category": "Windbreakers",
+      "color": ["", "", "", "", "", "", "", "", "", ""],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "w2",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "2300",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "w3",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "3700",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "w4",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "5100",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "w5",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "10999",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "w6",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "4500",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "w7",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "2900",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "w8",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "9090",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "w9",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "6040",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["S", "M", "L"],
+      "gender": ["Женский"]
+    },
+
+    {
+      "vendorCode": "A1",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "22000",
+      "category": "Anoraki",
+      "color": ["deep purple", "Persian indigo", "amaranth", "Dark salmon", "Magenta Crayola", "Moderate purple red", "sky blue", "Bananamania", "Gentle olive", "Byzantine", "Christmas tree color"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "A2",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "12999",
+      "category": "Anoraki",
+      "color": ["black", "Bananamania", "Olive Green Crayola", "Dark salmon", "Grandma's apples", "Cadet Blue Crayola", "White", "deep purple", "Persian indigo", "Brilliant blue", "Light bluish green"],
+      "size": ["S", "M", "L", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "A3",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "15450",
+      "category": "Anoraki",
+      "color": ["deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green", "Asparagus Crayola", "Intense yellow-green", "Gentle olive", "sky blue", "Light grey-blue"],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "A4",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "5050",
+      "category": "Anoraki",
+      "color": ["black", "sky blue", "Light grey-blue", "Brilliant blue", "pastel turquoise", "White"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "A5",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "11999",
+      "category": "Anoraki",
+      "color": ["Dark salmon", "Magenta Crayola", "Byzantine", "Intense yellow-green", "Brilliant green", "Gentle olive", "Light grey-blue", "Moderate purple red", "sky blue", "Olive Green Crayola", "Bananamania", "black"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "A6",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "10800",
+      "category": "Anoraki",
+      "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "amaranth", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green", "Asparagus Crayola"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "A7",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "6700",
+      "category": "Anoraki",
+      "color": ["Olive Green Crayola", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Asparagus Crayola", "Intense yellowish green", "Christmas tree color", "Grandma's apples", "Light bluish green"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "A8",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "9880",
+      "category": "Anoraki",
+      "color": ["Olive Green Crayola", "black", "Bananamania", "sky blue", "White", "Cadet Blue Crayola", "Grandma's apples"],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "A9",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "7450",
+      "category": "Anoraki",
+      "color": ["White", "pastel turquoise", "Brilliant blue", "Dark salmon", "Bananamania", "black"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "A10",
+      "src": "../static/anorak.jpg",
+      "type": "Анораки",
+      "name": "Дизайнер с душой",
+      "price": "6900",
+      "category": "Anoraki",
+      "color": ["Byzantine", "Moderate purple red", "Magenta Crayola", "amaranth", "deep purple", "Persian indigo"],
+      "size": ["S", "M", "L"],
+      "gender": ["Женский"]
+    },
+
+    {
+      "vendorCode": "S1",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "1449",
+      "category": "sweatshirts",
+      "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "Light grey-blue", "sky blue", "black"],
+      "size": ["S", "M", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    }
+    ,
+    {
+      "vendorCode": "S2",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "1000",
+      "category": "sweatshirts",
+      "color": ["black", "Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola", "Dark salmon"],
+      "size": ["S", "M", "L", "XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "S3",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "2300",
+      "category": "sweatshirts",
+      "color": ["sky blue", "Light grey-blue", "Brilliant green", "Brilliant blue", "Persian indigo", "Cadet Blue Crayola", "pastel turquoise", "deep purple", "Bananamania", "Dark salmon"],
+      "size": ["S", "M", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "S4",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "2350",
+      "category": "sweatshirts",
+      "color": ["Byzantine", "Magenta Crayola", "Dark salmon", "Moderate purple red", "black", "amaranth", "White"],
+      "size": ["S","XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "S5",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "3200",
+      "category": "sweatshirts",
+      "color": ["black", "Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola", "Dark salmon", "Asparagus Crayola", "Intense yellowish green"],
+      "size": ["S", "M", "L"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "S6",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "4699",
+      "category": "sweatshirts",
+      "color": ["Byzantine", "Moderate purple red", "Magenta Crayola", "amaranth", "deep purple", "Persian indigo", "Christmas tree color", "Grandma's apples", "Light bluish green"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "S7",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "3080",
+      "category": "sweatshirts",
+      "color": ["White", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green", "Asparagus Crayola", "Intense yellow-green", "Brilliant green", "Gentle olive", "Olive Green Crayol", "black"],
+      "size": ["S", "M", "L", "XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "S8",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "2250",
+      "category": "sweatshirts",
+      "color": ["Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "S9",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "1900",
+      "category": "sweatshirts",
+      "color": ["Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola"],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "S10",
+      "src": "../static/sweatshirts.jpg",
+      "type": "Свитшоты",
+      "name": "Дизайнер с душой",
+      "price": "2900",
+      "category": "sweatshirts",
+      "color": ["Dark salmon", "Asparagus Crayola", "Persian indigo", "Cadet Blue Crayola", "deep purple", "black"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+
+    {
+      "vendorCode": "K1",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "110",
+      "category": "keyrings",
+      "color": ["Dark salmon", "Asparagus Crayola", "Persian indigo", "Cadet Blue Crayola", "deep purple", "black"],
+      "size": [],
+      "gender": []
+    },
+    {
+      "vendorCode": "K2",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "15500",
+      "category": "keyrings",
+      "color": ["White", "black", "Moderate purple red", "sky blu", "Dark salmon", "Intense yellowish green", "Christmas tree color", "Persian indigo", "deep purple", "pastel turquoise"],
+      "size": [],
+      "gender": []
+    },
+    {
+      "vendorCode": "K3",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "250",
+      "category": "keyrings",
+      "color": ["White", "black"],
+      "size": [],
+      "gender": []
+    },
+    {
+      "vendorCode": "K4",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "1009",
+      "category": "keyrings",
+      "color": ["amaranth", "Magenta Crayola", "Byzantine", "Moderate purple red"],
+      "size": [],
+      "gender": []
+    },
+    {
+      "vendorCode": "K5",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "470",
+      "category": "keyrings",
+      "color": ["Bananamania", "Olive Green Crayola", "sky blue", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Asparagus Crayola", "Intense yellowish green", "Christmas tree color"],
+      "size": [],
+      "gender": []
+    },
+    {
+      "vendorCode": "K6",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "3890",
+      "category": "keyrings",
+      "color": ["Grandma's apples", "Light bluish green", "Brilliant blue", "Cadet Blue Crayola", "pastel turquoise"],
+      "size": [],
+      "gender": []
+    },
+    {
+      "vendorCode": "K7",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "500",
+      "category": "keyrings",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": []
+    },
+
+    {
+      "vendorCode": "B1",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "580",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B2",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "374",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B3",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "2380",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B4",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "13700",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B5",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "4400",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B6",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "6880",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B7",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "830",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+
+    {
+      "vendorCode": "t1",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "7777",
+      "category": "Trousers",
+      "color": ["White", "black"],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "t2",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "13800",
+      "category": "Trousers",
+      "color": ["Bananamania", "black", "White", "Cadet Blue Crayola", "Dark salmon"],
+      "size": ["S", "M", "L", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "t3",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "2720",
+      "category": "Trousers",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue"],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "t4",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "1550",
+      "category": "Trousers",
+      "color": [],
+      "size": ["L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "t5",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "3100",
+      "category": "Trousers",
+      "color": [],
+      "size": ["S", "M", "L", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "t6",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "4900",
+      "category": "Trousers",
+      "color": ["Moderate purple red", "Byzantine", "Magenta Crayola", "Dark salmon", "amaranth", "Brilliant blue", "Persian indigo", "deep purple", "pastel turquoise", "Cadet Blue Crayola"],
+      "size": ["S", "M"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "t7",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "6300",
+      "category": "Trousers",
+      "color": ["Christmas tree color", "Intense yellow-green", "Olive Green Crayola", "Bananamania", "black"],
+      "size": ["XL", "XXL", "2XL", "3XL"],
+      "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "t8",
+      "src": "../static/Trousers.jpg",
+      "type": "Брюки",
+      "name": "Дизайнер с душой",
+      "price": "1900",
+      "category": "Trousers",
+      "color": ["Olive Green Crayola", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Asparagus Crayola", "Intense yellowish green", "Christmas tree color", "Grandma's apples", "Light bluish green", "White", "Brilliant blue", "sky blue"],
+      "size": ["S", "3XL"],
+      "gender": ["Женский", "Мужской"]
+    }
+
+  ],
+
+  "gender": [
+    {
+      "name": "all",
+      "gender": "Все"
+    },
+    {
+      "name": "man",
+      "gender": "Мужской"
+
+    },
+    {
+      "name": "woman",
+      "gender": "Женский"
+    }
+  ],
+
+  "category": [
+    {
+      "name": "Anoraki",
+      "label": "Анораки"
+    },
+    {
+      "name": "sweatshirts",
+      "label": "Свитшоты"
+    },
+    {
+      "name": "Trousers",
+      "label": "Брюки"
+    },
+    {
+      "name": "Socks",
+      "label": "Носки"
+    },
+    {
+      "name": "Windbreakers",
+      "label": "Ветровки"
+    },
+    {
+      "name": "Bracelets",
+      "label": "Браслеты"
+    },
+    {
+      "name": "keyrings",
+      "label": "Брелоки"
+    }
+  ],
+
+  "size": [
+    {
+      "name": "S",
+      "size": "S"
+    },
+    {
+      "name": "M",
+      "size": "M"
+    },
+    {
+      "name": "L",
+      "size": "L"
+    },
+    {
+      "name": "XL",
+      "size": "XL"
+    },
+    {
+      "name": "2XL",
+      "size": "2XL"
+    },
+    {
+      "name": "XXL",
+      "size": "XXL"
+    },
+    {
+      "name": "3XL",
+      "size": "3XL"
+    }
+  ],
+
+  "color": [
+    {
+      "name": "White",
+      "background": "#FFFFFF"
+    },
+    {
+      "name": "deep purple",
+      "background": "#501599"
+    },
+    {
+      "name": "pastel turquoise",
+      "background": "#87ABB7"
+    },
+    {
+      "name": "Cadet Blue Crayola",
+      "background": "#B0BFCF"
+    },
+    {
+      "name": "Persian indigo",
+      "background": "#450F71"
+    },
+    {
+      "name": "Brilliant blue",
+      "background": "#34A0B5"
+    },
+    {
+      "name": "amaranth",
+      "background": "#FA1A69"
+    },
+    {
+      "name": "Light bluish green",
+      "background": "#5A9870"
+    },
+    {
+      "name": "Grandma's apples",
+      "background": "#9BB471"
+    },
+    {
+      "name": "Christmas tree color",
+      "background": "#246704"
+    },
+    {
+      "name": "Intense yellowish green",
+      "background": "#3C872E"
+    },
+    {
+      "name": "Asparagus Crayola",
+      "background": "#91B372"
+    },
+    {
+      "name": "Dark salmon",
+      "background": "#E5AA6D"
+    },
+    {
+      "name": "Magenta Crayola",
+      "background": "#F06BB8"
+    },
+    {
+      "name": "Byzantine",
+      "background": "#D52BD3"
+    },
+    {
+      "name": "Intense yellow-green",
+      "background": "#86811B"
+    },
+    {
+      "name": "Brilliant green",
+      "background": "#3D9A79"
+    },
+    {
+      "name": "Gentle olive",
+      "background": "#659722"
+    },
+    {
+      "name": "Light grey-blue",
+      "background": "#8EC8B5"
+    },
+    {
+      "name": "Moderate purple red",
+      "background": "#E8118F"
+    },
+    {
+      "name": "sky blue",
+      "background": "#216DC1"
+    },
+    {
+      "name": "Olive Green Crayola",
+      "background": "#9CC171"
+    },
+    {
+      "name": "Bananamania",
+      "background": "#F7EDAB"
+    },
+    {
+      "name": "black",
+      "background": "#000000"
+    }
+  ],
+
+  "showItems": [
+    {
+      "parameter": 6
+    },
+    {
+      "parameter": 12
+    },
+    {
+      "parameter": 24
+    },
+    {
+      "parameter": 36
+    },
+    {
+      "parameter": 48
+    },
+    {
+      "parameter": 60
+    }
+
+  ],
+
+  "sortingElements": [
+    {
+      "parameter": "По популярности"
+    },
+    {
+      "parameter": "По рейтингу"
+    },
+    {
+      "parameter": "По возрастанию цены"
+    },
+    {
+      "parameter": "По убыванию цены"
+    },
+    {
+      "parameter": "По новинкам"
+    },
+    {
+      "parameter": "Сначала выгодные"
+    }
+  ],
+
+  "filter": [
+    {
+      "title": "Пол",
+      "category": "gender",
+      "themeCheckbox": "standard",
+      "listItemFiltered": [
+        {
+          "name": "Все",
+          "label": "Все"
+        },
+        {
+          "name": "Мужской",
+          "label": "Мужской"
+
+        },
+        {
+          "name": "Женский",
+          "label": "Женский"
+        }
+      ]
+    },
+    {
+      "title": "Категория",
+      "category": "category",
+      "themeCheckbox": "standard",
+      "listItemFiltered": [
+        {
+          "name": "Anoraki",
+          "label": "Анораки"
+        },
+        {
+          "name": "sweatshirts",
+          "label": "Свитшоты"
+        },
+        {
+          "name": "Trousers",
+          "label": "Брюки"
+        },
+        {
+          "name": "Socks",
+          "label": "Носки"
+        },
+        {
+          "name": "Windbreakers",
+          "label": "Ветровки"
+        },
+        {
+          "name": "Bracelets",
+          "label": "Браслеты"
+        },
+        {
+          "name": "keyrings",
+          "label": "Брелоки"
+        }
+      ]
+    },
+    {
+      "title": "Размер",
+      "category": "size",
+      "themeCheckbox": "typeSize",
+      "listItemFiltered": [
+        {
+          "name": "S",
+          "size": "S"
+        },
+        {
+          "name": "M",
+          "size": "M"
+        },
+        {
+          "name": "L",
+          "size": "L"
+        },
+        {
+          "name": "XL",
+          "size": "XL"
+        },
+        {
+          "name": "2XL",
+          "size": "2XL"
+        },
+        {
+          "name": "XXL",
+          "size": "XXL"
+        },
+        {
+          "name": "3XL",
+          "size": "3XL"
+        }
+      ]
+    },
+    {
+      "title": "Цвет",
+      "category": "Color",
+      "themeCheckbox": "typeColor",
+      "listItemFiltered": [
+        {
+          "name": "White",
+          "background": "#FFFFFF"
+        },
+        {
+          "name": "deep purple",
+          "background": "#501599"
+        },
+        {
+          "name": "pastel turquoise",
+          "background": "#87ABB7"
+        },
+        {
+          "name": "Cadet Blue Crayola",
+          "background": "#B0BFCF"
+        },
+        {
+          "name": "Persian indigo",
+          "background": "#450F71"
+        },
+        {
+          "name": "Brilliant blue",
+          "background": "#34A0B5"
+        },
+        {
+          "name": "amaranth",
+          "background": "#FA1A69"
+        },
+        {
+          "name": "Light bluish green",
+          "background": "#5A9870"
+        },
+        {
+          "name": "Grandma's apples",
+          "background": "#9BB471"
+        },
+        {
+          "name": "Christmas tree color",
+          "background": "#246704"
+        },
+        {
+          "name": "Intense yellowish green",
+          "background": "#3C872E"
+        },
+        {
+          "name": "Asparagus Crayola",
+          "background": "#91B372"
+        },
+        {
+          "name": "Dark salmon",
+          "background": "#E5AA6D"
+        },
+        {
+          "name": "Magenta Crayola",
+          "background": "#F06BB8"
+        },
+        {
+          "name": "Byzantine",
+          "background": "#D52BD3"
+        },
+        {
+          "name": "Intense yellow-green",
+          "background": "#86811B"
+        },
+        {
+          "name": "Brilliant green",
+          "background": "#3D9A79"
+        },
+        {
+          "name": "Gentle olive",
+          "background": "#659722"
+        },
+        {
+          "name": "Light grey-blue",
+          "background": "#8EC8B5"
+        },
+        {
+          "name": "Moderate purple red",
+          "background": "#E8118F"
+        },
+        {
+          "name": "sky blue",
+          "background": "#216DC1"
+        },
+        {
+          "name": "Olive Green Crayola",
+          "background": "#9CC171"
+        },
+        {
+          "name": "Bananamania",
+          "background": "#F7EDAB"
+        },
+        {
+          "name": "black",
+          "background": "#000000"
+        }
+      ]
+    }
+  ]
+
+}

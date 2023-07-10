@@ -1,0 +1,25 @@
+@import '../../styles/helpers';
+
+.bread-crumbs {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+
+    &_active {
+      color: #000;
+    }
+  }
+
+  &__arrow {
+    margin: 0 5px;
+
+    path {
+      stroke: #B3B3B3;
+    }
+  }
+}

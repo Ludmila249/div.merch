@@ -1,0 +1,67 @@
+@import '../../styles/helpers';
+
+.select {
+  position: relative;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 8px;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+  }
+
+  &__select-name {
+    color: #B3B3B3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    margin-left: 4px;
+  }
+
+  &__arrow {
+    display: block;
+    margin-left: 32px;
+    transform: rotate(90deg);
+  }
+
+  &__main {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #F2F2F2;
+    background-color: #FFF;
+    z-index: 1;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px 0;
+    cursor: pointer;
+
+    p {
+      color: #B3B3B3;
+      transition: color 0.2s ease-in-out;
+    }
+
+    &:hover {
+      p {
+        color: #000;
+      }
+    }
+  }
+}

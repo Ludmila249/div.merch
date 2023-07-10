@@ -1,0 +1,50 @@
+@import '../../styles/helpers';
+
+.card {
+  border-radius: 24px;
+  border: 1px solid #F2F2F2;
+  background: #FFF;
+  width: 340px;
+  padding: 32px;
+  transition: 0.2s ease-in-out;
+
+  &__photo-product {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__type-product {
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 4px;
+  }
+
+  &__name {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  &__price {
+    color: #A6A6A6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    transition: 0.2s ease-in-out;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.08);
+
+    .card__price {
+      color: #30F;
+    }
+  }
+}
