@@ -97,9 +97,10 @@
             v-for="elem in item.listItemFiltered"
             :key="elem.name"
             :elem="elem"
+            :listItem="item"
             :theme-checkbox="item.themeCheckbox"
             :class="bem('checkbox-block', { size: item.themeCheckbox === 'typeSize' })"
-            @parameterToFilter="listChecked(elem.name)"
+            @parameterToFilter="listChecked"
             @change="clickArray"
           />
         </div>
@@ -200,12 +201,12 @@ export default {
         return item.price >= vm.minPrice && item.price <= vm.maxPrice;
       });
     },
-    checkedItemFilter(value) {
-      this.sortedProductsPrice = [...this.catalog];
-      this.sortedProductsPrice = this.sortedProductsPrice.filter((elem) => elem.category === value);
-      this.sortByPrice(true);
-    },
-    listChecked(value) {
+    // checkedItemFilter(value) {
+    //   this.sortedProductsPrice = [...this.catalog];
+    //   this.sortedProductsPrice = this.sortedProductsPrice.filter((elem) => elem.category === value);
+    //   this.sortByPrice(true);
+    // },
+    listChecked(value, category) {
       const itemIndex = this.arrayChecked.indexOf(value);
 
       if (this.sortedProductsPrice.length === this.catalog.length) {
@@ -214,10 +215,11 @@ export default {
 
       if (itemIndex !== -1) {
         this.arrayChecked.splice(itemIndex, 1);
-        this.sortedProductsPrice = this.sortedProductsPrice.filter(elem => elem.category !== value);
+        this.sortedProductsPrice = this.sortedProductsPrice.filter(elem => elem[category] !== value);
       } else {
         this.arrayChecked.push(value);
-        this.sortedProductsPrice.push(...this.catalog.filter((elem) => elem.category === value));
+
+        this.sortedProductsPrice.push(...this.catalog.filter((elem) => elem[category] === value ));
       }
 
       if (this.arrayChecked.length === 0) {

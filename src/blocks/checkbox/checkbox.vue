@@ -8,7 +8,7 @@
             :name="elem.name"
             :value="elem.name"
             type="checkbox"
-            @change="checkedItem()"
+            @change="checkedItem(elem)"
           />
           <span>{{ elem.size }}</span>
         </label>
@@ -22,7 +22,7 @@
             :name="elem.name"
             :value="elem.name"
             type="checkbox"
-            @change="checkedItem()"
+            @change="checkedItem(elem)"
           />
           <span
             :class="bem('color__checkbox', { white: elem.background === '#FFFFFF' })"
@@ -38,7 +38,7 @@
           :name="elem.name"
           :value="elem.name"
           type="checkbox"
-          @change="checkedItem()"
+          @change="checkedItem(elem)"
         />
         <span />
         <p>{{ elem.label }}</p>
@@ -55,6 +55,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    listItem: {
+      type: Object,
+      default: () => {},
+    },
     themeCheckbox: {
       type: String,
       default: '',
@@ -65,7 +69,7 @@ export default {
   },
   methods: {
     checkedItem(elem) {
-      this.$emit('parameterToFilter', elem);
+      this.$emit('parameterToFilter', elem.name, this.listItem.category);
     },
   },
 };
