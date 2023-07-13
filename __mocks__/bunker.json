@@ -2,7 +2,7 @@
   "menu": [
     {
       "text": "Главная",
-      "href": "#"
+      "href": "/"
     },
     {
       "text": "Коллекции",
@@ -10,7 +10,7 @@
     },
     {
       "text": "Все товары",
-      "href": "#"
+      "href": "/catalog/"
     },
     {
       "text": "Категории",
@@ -29,6 +29,17 @@
       "color": ["White", "black"],
       "size": ["S", "M", "L"],
       "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "K5",
+      "src": "../static/keyrings.png",
+      "type": "Брелоки",
+      "name": "Брелоки с душой",
+      "price": "470",
+      "category": "keyrings",
+      "color": ["Bananamania", "Olive Green Crayola", "sky blue", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Asparagus Crayola", "Intense yellowish green", "Christmas tree color"],
+      "size": [],
+      "gender": []
     },
     {
       "vendorCode": "p2",
@@ -50,6 +61,28 @@
       "category": "Socks",
       "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples"],
       "size": ["S", "M", "L"],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B6",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "6880",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
+      "gender": ["Женский", "Мужской"]
+    },
+    {
+      "vendorCode": "B7",
+      "src": "../static/Bracelets.jpg",
+      "type": "Браслеты",
+      "name": "Браслеты с душой",
+      "price": "830",
+      "category": "Bracelets",
+      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "size": [],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -84,6 +117,28 @@
       "color": ["Moderate purple red", "Byzantine", "Magenta Crayola", "amaranth"],
       "size": ["S", "M", "L", "XL", "XXL"],
       "gender": ["Женский"]
+    },
+    {
+      "vendorCode": "w4",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "5100",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
+    },
+    {
+      "vendorCode": "w5",
+      "src": "../static/Windbreakers.jpg",
+      "type": "Ветровки",
+      "name": "Дизайнер с душой",
+      "price": "10999",
+      "category": "Windbreakers",
+      "color": [],
+      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "gender": ["Мужской"]
     },
     {
       "vendorCode": "p7",
@@ -293,28 +348,6 @@
       "color": [],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
-    },
-    {
-      "vendorCode": "w4",
-      "src": "../static/Windbreakers.jpg",
-      "type": "Ветровки",
-      "name": "Дизайнер с душой",
-      "price": "5100",
-      "category": "Windbreakers",
-      "color": [],
-      "size": ["XXL", "2XL", "3XL"],
-      "gender": ["Мужской"]
-    },
-    {
-      "vendorCode": "w5",
-      "src": "../static/Windbreakers.jpg",
-      "type": "Ветровки",
-      "name": "Дизайнер с душой",
-      "price": "10999",
-      "category": "Windbreakers",
-      "color": [],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
-      "gender": ["Мужской"]
     },
     {
       "vendorCode": "w6",
@@ -629,17 +662,6 @@
       "gender": []
     },
     {
-      "vendorCode": "K5",
-      "src": "../static/keyrings.png",
-      "type": "Брелоки",
-      "name": "Брелоки с душой",
-      "price": "470",
-      "category": "keyrings",
-      "color": ["Bananamania", "Olive Green Crayola", "sky blue", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Asparagus Crayola", "Intense yellowish green", "Christmas tree color"],
-      "size": [],
-      "gender": []
-    },
-    {
       "vendorCode": "K6",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -712,28 +734,6 @@
       "type": "Браслеты",
       "name": "Браслеты с душой",
       "price": "4400",
-      "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
-      "size": [],
-      "gender": ["Женский", "Мужской"]
-    },
-    {
-      "vendorCode": "B6",
-      "src": "../static/Bracelets.jpg",
-      "type": "Браслеты",
-      "name": "Браслеты с душой",
-      "price": "6880",
-      "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
-      "size": [],
-      "gender": ["Женский", "Мужской"]
-    },
-    {
-      "vendorCode": "B7",
-      "src": "../static/Bracelets.jpg",
-      "type": "Браслеты",
-      "name": "Браслеты с душой",
-      "price": "830",
       "category": "Bracelets",
       "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
       "size": [],

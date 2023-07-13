@@ -1,17 +1,13 @@
 <template>
   <div class="app">
-    <page-main />
+    <router-view />
   </div>
 </template>
 
 <script>
 import lessVars from '@/styles/vars.less';
-import PageMain from '@/pages/main/page-main.vue';
 
 export default {
-  components: {
-    PageMain,
-  },
   created() {
     this.onWindowResize();
     window.addEventListener('resize', this.onWindowResize);

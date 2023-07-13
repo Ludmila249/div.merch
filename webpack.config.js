@@ -28,6 +28,7 @@ module.exports = (env, argv) => {
       client: {
         logging: 'warn',
       },
+      historyApiFallback: true,
     },
     devtool: isProduction ? false : 'source-map',
     resolve: {

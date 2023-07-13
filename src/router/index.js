@@ -1,7 +1,10 @@
-/* import Vue from 'vue';
+import Vue from 'vue';
 import Router from 'vue-router';
 
 import MainPage from '@/pages/main/page-main.vue';
+import CatalogPage from '../pages/catalog/page-catalog.vue';
+import ProductDetailsPage from '../pages/product-details/page-product-details.vue';
+import BasketPage from '../pages/basket/page-basket.vue';
 
 const pathToRegexpOptions = {
   strict: true,
@@ -24,11 +27,29 @@ export default new Router({
       pathToRegexpOptions,
     },
     {
-      path: '/sub/',
-      name: 'main',
-      component: SubPage,
+      path: '/catalog/',
+      name: 'catalog',
+      component: CatalogPage,
       pathToRegexpOptions,
     },
+    {
+      path: '/product-details/',
+      name: 'product-details',
+      component: ProductDetailsPage,
+      pathToRegexpOptions,
+    },
+    {
+      path: '/basket/',
+      name: 'basket',
+      component: BasketPage,
+      pathToRegexpOptions,
+    },
+    // {
+    //   path: '/sub/',
+    //   name: 'main',
+    //   component: SubPage,
+    //   pathToRegexpOptions,
+    // },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
@@ -37,4 +58,4 @@ export default new Router({
 
     return { x: 0, y: 0 };
   },
-}); */
+});
