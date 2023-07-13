@@ -1,4 +1,116 @@
 @import '../../styles/helpers';
 
 .page-product-details {
+  width: 100%;
+  border-radius: 32px;
+  background-color: #FFF;
+  padding: 40px;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photo {
+    width: 65%;
+  }
+
+  &__characteristics {
+    width: 30%;
+  }
+
+  &__name-product {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    &_number {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #E6E6E6;
+
+    &_dropdown {
+      flex-direction: column;
+      justify-content: left;
+      margin-right: auto;
+    }
+  }
+
+  &__dropdown {
+    margin-right: auto;
+  }
+
+  &__list {
+    margin-right: auto;
+  }
+
+  &__list ul {
+    padding-left: 20px;
+  }
+
+  &__list li {
+    list-style: square;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  &__wrap-color,
+  &__wrap-size {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__color {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid #E6E6E6;
+  }
+
+  &__size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #E6E6E6;
+    margin: 0 5px 10px;
+  }
+
+  &__button {
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    color: #FFF;
+    transition: background 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #30F;
+    }
+  }
 }
