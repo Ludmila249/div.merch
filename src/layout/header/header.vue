@@ -12,9 +12,12 @@
         >
       </nav>
       <div class="header__icon-tools">
-        <button class="header__wrap-icon">
-          <icon-search class="header__icon" />
-        </button>
+        <div class="header__search-wrap">
+          <input :class="bem('header__search', { openSearch })" type="search" />
+          <button class="header__wrap-icon" @click="clickSearch">
+            <icon-search class="header__icon" />
+          </button>
+        </div>
         <a href="#" class="header__wrap-icon">
           <icon-user class="header__icon" />
         </a>
@@ -27,7 +30,6 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
 import LogoDiv from '../../images/logo-div.svg?inline';
 import IconSearch from '../../images/search.svg?inline';
 import IconUser from '../../images/user.svg?inline';
@@ -41,10 +43,33 @@ export default {
     IconUser,
     IconBasket,
   },
-  computed: {
-    ...mapState({
-      menu: (state) => state.bunker.menu,
-    }),
+  data() {
+    return {
+      openSearch: false,
+      menu: [
+        {
+          text: 'Главная',
+          href: '/',
+        },
+        {
+          text: 'Коллекции',
+          href: '#',
+        },
+        {
+          text: 'Все товары',
+          href: '/catalog/',
+        },
+        {
+          text: 'Категории',
+          href: '#',
+        },
+      ],
+    };
+  },
+  methods: {
+    clickSearch() {
+      this.openSearch = !this.openSearch;
+    },
   },
 };
 </script>

@@ -1,25 +1,7 @@
 {
-  "menu": [
-    {
-      "text": "Главная",
-      "href": "/"
-    },
-    {
-      "text": "Коллекции",
-      "href": "#"
-    },
-    {
-      "text": "Все товары",
-      "href": "/catalog/"
-    },
-    {
-      "text": "Категории",
-      "href": "#"
-    }
-  ],
-
   "catalog": [
     {
+      "id": "2978927797",
       "vendorCode": "p1",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -31,6 +13,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "9370200972",
       "vendorCode": "K5",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -42,6 +25,7 @@
       "gender": []
     },
     {
+      "id": "807728658",
       "vendorCode": "p2",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -53,6 +37,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "970879227",
       "vendorCode": "p3",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -64,6 +49,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "007080768",
       "vendorCode": "B6",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
@@ -75,6 +61,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "986756476",
       "vendorCode": "B7",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
@@ -86,6 +73,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "146697944",
       "vendorCode": "p4",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -97,6 +85,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "324879568",
       "vendorCode": "p5",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -108,6 +97,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "458266877",
       "vendorCode": "p6",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -119,6 +109,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "023145699",
       "vendorCode": "w4",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -130,6 +121,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "369821466",
       "vendorCode": "w5",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -141,6 +133,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "3278944485",
       "vendorCode": "p7",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -152,6 +145,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "1114578205",
       "vendorCode": "p8",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -163,6 +157,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2254555808",
       "vendorCode": "p9",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -174,6 +169,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "3256445577",
       "vendorCode": "p10",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -185,6 +181,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2214587878",
       "vendorCode": "p11",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -196,6 +193,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "3365699854",
       "vendorCode": "p12",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -207,6 +205,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "685997555",
       "vendorCode": "p13",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -218,6 +217,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "214588596",
       "vendorCode": "p14",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -229,6 +229,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2215663256",
       "vendorCode": "p15",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -240,6 +241,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "20220020222",
       "vendorCode": "p16",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -251,6 +253,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "360002120",
       "vendorCode": "p17",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -763,6 +766,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "785520941",
       "vendorCode": "t3",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -774,6 +778,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "9989863302",
       "vendorCode": "t4",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -785,6 +790,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "8778799487",
       "vendorCode": "t5",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -796,6 +802,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "656556589",
       "vendorCode": "t6",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -807,6 +814,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "898985522",
       "vendorCode": "t7",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -818,6 +826,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "255887899",
       "vendorCode": "t8",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",

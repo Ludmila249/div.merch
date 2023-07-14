@@ -97,7 +97,7 @@
             v-for="elem in item.listItemFiltered"
             :key="elem.name"
             :elem="elem"
-            :listItem="item"
+            :list-item="item"
             :theme-checkbox="item.themeCheckbox"
             :class="bem('checkbox-block', { size: item.themeCheckbox === 'typeSize' })"
             @parameterToFilter="listChecked"
@@ -215,11 +215,13 @@ export default {
 
       if (itemIndex !== -1) {
         this.arrayChecked.splice(itemIndex, 1);
-        this.sortedProductsPrice = this.sortedProductsPrice.filter(elem => elem[category] !== value);
+        this.sortedProductsPrice = this.sortedProductsPrice.filter(
+          (elem) => elem[category] !== value
+        );
       } else {
         this.arrayChecked.push(value);
 
-        this.sortedProductsPrice.push(...this.catalog.filter((elem) => elem[category] === value ));
+        this.sortedProductsPrice.push(...this.catalog.filter((elem) => elem[category] === value));
       }
 
       if (this.arrayChecked.length === 0) {

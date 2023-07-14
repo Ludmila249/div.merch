@@ -1,10 +1,10 @@
 <template>
-  <div class="card">
+  <router-link to="/product-details/" class="card">
     <img class="card__photo-product" :src="card.src" alt="" />
     <p class="card__type-product">{{ card.type }}</p>
     <p class="card__name" v-html="card.name" />
     <p class="card__price">{{ card.price }} ₽</p>
-  </div>
+  </router-link>
 </template>
 
 <script>
