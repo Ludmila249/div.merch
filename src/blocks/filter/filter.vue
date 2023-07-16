@@ -221,7 +221,14 @@ export default {
       } else {
         this.arrayChecked.push(value);
 
-        this.sortedProductsPrice.push(...this.catalog.filter((elem) => elem[category] === value));
+        const data = this.catalog.filter((elem) => {
+          if (elem[category] == value && Boolean(typeof elem[category] === 'string')) {
+            return elem
+          } else if(elem[category].includes(value)) {
+            return elem;
+          }
+        });
+        this.sortedProductsPrice.push(...data);
       }
 
       if (this.arrayChecked.length === 0) {
