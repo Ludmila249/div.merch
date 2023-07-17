@@ -223,8 +223,9 @@ export default {
 
         const data = this.catalog.filter((elem) => {
           if (elem[category] == value && Boolean(typeof elem[category] === 'string')) {
-            return elem
-          } else if(elem[category].includes(value)) {
+            return elem;
+          }
+          if (elem[category].includes(value)) {
             return elem;
           }
         });

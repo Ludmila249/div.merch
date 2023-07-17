@@ -2,6 +2,7 @@
   "catalog": [
     {
       "id": "2978927797",
+      "groupId": "",
       "vendorCode": "p1",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -116,7 +117,7 @@
       "name": "Дизайнер с душой",
       "price": "5100",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["Persian indigo"],
       "size": ["XXL", "2XL", "3XL"],
       "gender": ["Мужской"]
     },
@@ -128,7 +129,7 @@
       "name": "Дизайнер с душой",
       "price": "10999",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["Dark salmon"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Мужской"]
     },
@@ -212,8 +213,8 @@
       "name": "Дизайнер с душой",
       "price": "9990",
       "category": "Socks",
-      "color": [],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "color": ["pastel turquoise", "amaranth", "Grandma's apples", "Intense yellowish green", "Dark salmon", "Byzantine"],
+      "size": ["L"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -224,8 +225,8 @@
       "name": "Дизайнер с душой",
       "price": "1120",
       "category": "Socks",
-      "color": [],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "color": ["black", "Bananamania", "Magenta Crayola", "Dark salmon"],
+      "size": ["M"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -236,8 +237,8 @@
       "name": "Дизайнер с душой",
       "price": "909",
       "category": "Socks",
-      "color": [],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "color": ["Christmas tree color"],
+      "size": ["S"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -248,7 +249,7 @@
       "name": "Дизайнер с душой",
       "price": "769",
       "category": "Socks",
-      "color": [],
+      "color": ["Magenta Crayola", "Dark salmon"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -260,7 +261,7 @@
       "name": "Дизайнер с душой",
       "price": "100",
       "category": "Socks",
-      "color": [],
+      "color": ["Intense yellow-green", "Brilliant green"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -271,7 +272,7 @@
       "name": "Дизайнер с душой",
       "price": "1399",
       "category": "Socks",
-      "color": [],
+      "color": ["Gentle olive"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -282,7 +283,7 @@
       "name": "Дизайнер с душой",
       "price": "134",
       "category": "Socks",
-      "color": [],
+      "color": ["Brilliant blue"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -293,7 +294,7 @@
       "name": "Дизайнер с душой",
       "price": "837",
       "category": "Socks",
-      "color": [],
+      "color": ["Intense yellowish green"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -304,7 +305,7 @@
       "name": "Дизайнер с душой",
       "price": "661",
       "category": "Socks",
-      "color": [],
+      "color": ["Cadet Blue Crayola", "Gentle olive", "Byzantine"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -315,7 +316,7 @@
       "name": "Дизайнер с душой",
       "price": "876",
       "category": "Socks",
-      "color": [],
+      "color": ["White"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -326,7 +327,7 @@
       "name": "Дизайнер с душой",
       "price": "1500",
       "category": "Windbreakers",
-      "color": ["", "", "", "", "", "", "", "", "", ""],
+      "color": ["Intense yellowish green", "Brilliant blue", "Persian indigo", "Cadet Blue Crayola"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -337,7 +338,7 @@
       "name": "Дизайнер с душой",
       "price": "2300",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["Moderate purple red"],
       "size": ["XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский"]
     },
@@ -348,7 +349,7 @@
       "name": "Дизайнер с душой",
       "price": "3700",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["Light grey-blue"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
@@ -359,7 +360,7 @@
       "name": "Дизайнер с душой",
       "price": "4500",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["sky blue"],
       "size": ["L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Мужской"]
     },
@@ -370,7 +371,7 @@
       "name": "Дизайнер с душой",
       "price": "2900",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["Olive Green Crayola"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский"]
     },
@@ -381,8 +382,8 @@
       "name": "Дизайнер с душой",
       "price": "9090",
       "category": "Windbreakers",
-      "color": [],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "color": ["Bananamania"],
+      "size": ["XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -392,7 +393,7 @@
       "name": "Дизайнер с душой",
       "price": "6040",
       "category": "Windbreakers",
-      "color": [],
+      "color": ["black"],
       "size": ["S", "M", "L"],
       "gender": ["Женский"]
     },
@@ -405,7 +406,7 @@
       "price": "22000",
       "category": "Anoraki",
       "color": ["deep purple", "Persian indigo", "amaranth", "Dark salmon", "Magenta Crayola", "Moderate purple red", "sky blue", "Bananamania", "Gentle olive", "Byzantine", "Christmas tree color"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["XXL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -438,7 +439,7 @@
       "price": "5050",
       "category": "Anoraki",
       "color": ["black", "sky blue", "Light grey-blue", "Brilliant blue", "pastel turquoise", "White"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["2XL"],
       "gender": ["Мужской"]
     },
     {
@@ -449,7 +450,7 @@
       "price": "11999",
       "category": "Anoraki",
       "color": ["Dark salmon", "Magenta Crayola", "Byzantine", "Intense yellow-green", "Brilliant green", "Gentle olive", "Light grey-blue", "Moderate purple red", "sky blue", "Olive Green Crayola", "Bananamania", "black"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["3XL"],
       "gender": ["Женский", "Мужской"]
     },
     {

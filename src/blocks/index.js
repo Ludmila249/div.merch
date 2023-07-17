@@ -15,6 +15,7 @@ import CatalogBlock from './catalog/catalog.vue';
 import CardBlock from './card/card.vue';
 import PaginationBlock from './pagination/pagination.vue';
 import CheckboxBlock from './checkbox/checkbox.vue';
+import RadioButton from './radio-button/radio-button.vue';
 
 import ExampleBlock from './example/example.vue';
 
@@ -26,5 +27,6 @@ Vue.component('catalog-block', CatalogBlock);
 Vue.component('card-block', CardBlock);
 Vue.component('pagination-block', PaginationBlock);
 Vue.component('checkbox-block', CheckboxBlock);
+Vue.component('radio-button', RadioButton);
 
 Vue.component('example-block', ExampleBlock);

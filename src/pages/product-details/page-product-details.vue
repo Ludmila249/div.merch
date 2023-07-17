@@ -6,7 +6,73 @@
       <div class="page-product-details__wrap">
         <div class="page-product-details__info">
           <div class="page-product-details__photo">
-            <img src="../../../static/Bracelets.jpg" alt="" />
+            <div class="page-product-details__img">
+              <img src="../../../static/Bracelets.jpg" alt="" />
+            </div>
+            <div class="page-product-details__gallery-slider">
+              <swiper
+                :direction="'horizontal'"
+                slides-per-view="auto"
+                :space-between="0"
+                :update-on-window-resize="true"
+                :grab-cursor="true"
+                :auto-height="true"
+                :navigation="{
+                  prevEl: '.page-product-details__navigation_prev',
+                  nextEl: '.page-product-details__navigation_next',
+                }"
+                class="page-product-details__slider"
+              >
+                <swiper-slide>
+                  <div class="page-product-details__slide">
+                    <img
+                      class="page-product-details__gallery"
+                      src="../../../static/Bracelets-slider.jpg"
+                      alt=""
+                    />
+                  </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <div class="page-product-details__slide">
+                    <img
+                      class="page-product-details__gallery"
+                      src="../../../static/Bracelets-slider.jpg"
+                      alt=""
+                    />
+                  </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <div class="page-product-details__slide">
+                    <img
+                      class="page-product-details__gallery"
+                      src="../../../static/Bracelets-slider.jpg"
+                      alt=""
+                    />
+                  </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <div class="page-product-details__slide">
+                    <img
+                      class="page-product-details__gallery"
+                      src="../../../static/Bracelets-slider.jpg"
+                      alt=""
+                    />
+                  </div>
+                </swiper-slide>
+              </swiper>
+              <div class="page-product-details__navigation">
+                <div
+                  class="page-product-details__navigation_button page-product-details__navigation_prev"
+                >
+                  <arrow-navigation class="page-product-details__navigation-arrow" />
+                </div>
+                <div
+                  class="page-product-details__navigation_button page-product-details__navigation_next"
+                >
+                  <arrow-navigation class="page-product-details__navigation-arrow" />
+                </div>
+              </div>
+            </div>
           </div>
           <div class="page-product-details__characteristics">
             <h3 class="page-product-details__name-product">Браслеты</h3>
@@ -20,9 +86,7 @@
             <div class="page-product-details__description">
               <p class="page-product-details__text">Цвет</p>
               <div class="page-product-details__wrap-color">
-                <span class="page-product-details__color" style="background-color: #000" />
-                <span class="page-product-details__color" style="background-color: #450f71" />
-                <span class="page-product-details__color" style="background-color: #501599" />
+                <radio-button />
               </div>
             </div>
             <div class="page-product-details__description">
@@ -138,9 +202,16 @@
 </template>
 
 <script>
+import { Navigation, Autoplay } from 'swiper';
+
+import { SwiperCore, Swiper, SwiperSlide } from 'swiper-vue2';
 import { Tabs, TabItem } from 'vue-material-tabs';
 import HeaderBlock from '../../layout/header/header.vue';
 import FooterBlock from '../../layout/footer/footer.vue';
+
+import arrowNavigation from '../../images/arrow.svg?inline';
+
+SwiperCore.use([Navigation, Autoplay]);
 
 export default {
   name: 'page-product-details',
@@ -149,6 +220,9 @@ export default {
     FooterBlock,
     Tabs,
     TabItem,
+    Swiper,
+    SwiperSlide,
+    arrowNavigation,
   },
 };
 </script>

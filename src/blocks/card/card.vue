@@ -4,6 +4,9 @@
     <p class="card__type-product">{{ card.type }}</p>
     <p class="card__name" v-html="card.name" />
     <p class="card__price">{{ card.price }} ₽</p>
+    <p class="card__type-product">{{ [...card.size].join(', ') }}</p>
+    <p class="card__type-product">{{ [...card.color].join(', ') }}</p>
+    <p class="card__type-product">{{ [...card.gender].join(', ') }}</p>
   </router-link>
 </template>
 
