@@ -26,64 +26,6 @@
           />
         </div>
       </div>
-      <!-- <div class="filter__chapter">
-        <p class="filter__chapter-title">Пол</p>
-        <div v-for="item in gender" :key="item.gender" class="filter__check-box-wrap">
-          <label :for="item.name" class="filter__check-box">
-            <input
-              :id="item.name"
-              :name="item.name"
-              :value="item.name"
-              type="checkbox"
-              @change="checkedItemFilter(item.name)"
-            />
-            <span />
-            <p>{{ item.gender }}</p>
-          </label>
-        </div>
-      </div>
-      <div class="filter__chapter">
-        <p class="filter__chapter-title">Категория</p>
-        <div v-for="item in category" :key="item.label" class="filter__check-box-wrap">
-          <label :for="item.name" class="filter__check-box">
-            <input
-              :id="item.name"
-              v-model="arrayChecked"
-              :name="item.name"
-              type="checkbox"
-              :value="item.name"
-              @change="checkedItemFilter(item.name)"
-            />
-            <span />
-            <p>{{ item.label }}</p>
-          </label>
-        </div>
-      </div>
-      <div class="filter__chapter">
-        <p class="filter__chapter-title">Размер</p>
-        <div class="filter__size-wrap">
-          <div v-for="item in size" :key="item.size" class="filter__size-distance">
-            <label class="filter__size-check-box">
-              <input :name="item.name" type="checkbox" @change="checkedItemFilter(item.name)" />
-              <span>{{ item.size }}</span>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="filter__chapter">
-        <p class="filter__chapter-title">Цвет</p>
-        <div class="filter__color-wrap">
-          <div v-for="item in color" :key="item.background" class="filter__color">
-            <label class="filter__color-check-box">
-              <input :name="item.name" type="checkbox" />
-              <span
-                :class="bem('filter__checkbox', { white: item.background === '#FFFFFF' })"
-                :style="{ backgroundColor: item.background }"
-              />
-            </label>
-          </div>
-        </div>
-      </div> -->
       <div v-for="item in filter" :key="item.title" class="filter__section">
         <p class="filter__section-title">{{ item.title }}</p>
         <div
@@ -104,6 +46,9 @@
             @change="clickArray"
           />
         </div>
+      </div>
+      <div class="catalog__button">
+        <button type="button" class="catalog__button-reset" @click="filterReset">Сбросить</button>
       </div>
     </div>
     <div class="catalog__list-product">
@@ -127,7 +72,7 @@ export default {
   props: {
     quantityCard: {
       type: Number,
-      default: 11,
+      default: 12,
     },
   },
   data() {
@@ -142,10 +87,6 @@ export default {
   },
   computed: {
     ...mapState({
-      // category: (state) => state.bunker.category,
-      // size: (state) => state.bunker.size,
-      // color: (state) => state.bunker.color,
-      // gender: (state) => state.bunker.gender,
       catalog: (state) => state.bunker.catalog,
       filter: (state) => state.bunker.filter,
     }),
@@ -222,12 +163,13 @@ export default {
         this.arrayChecked.push(value);
 
         const data = this.catalog.filter((elem) => {
-          if (elem[category] == value && Boolean(typeof elem[category] === 'string')) {
+          if (elem[category] === value && Boolean(typeof elem[category] === 'string')) {
             return elem;
           }
           if (elem[category].includes(value)) {
             return elem;
           }
+          return null;
         });
         this.sortedProductsPrice.push(...data);
       }
@@ -238,6 +180,12 @@ export default {
     },
     clickArray() {
       console.log('this.arrayChecked', this.arrayChecked);
+    },
+    filterReset() {
+      this.minPrice = 100;
+      this.maxPrice = 24000;
+      this.sortedProductsPrice = [...this.catalog];
+      this.arrayChecked.length = 0;
     },
   },
 };

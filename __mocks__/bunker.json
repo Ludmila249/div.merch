@@ -10,7 +10,7 @@
       "price": "1000",
       "category": "Socks",
       "color": ["White", "black"],
-      "size": ["S", "M", "L"],
+      "size": ["M"],
       "gender": ["Мужской"]
     },
     {
@@ -34,7 +34,7 @@
       "price": "1050",
       "category": "Socks",
       "color": ["White", "black", "Byzantine"],
-      "size": ["S", "M", "L"],
+      "size": ["L"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -46,7 +46,7 @@
       "price": "1100",
       "category": "Socks",
       "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples"],
-      "size": ["S", "M", "L"],
+      "size": ["S"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -82,7 +82,7 @@
       "price": "1150",
       "category": "Socks",
       "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples"],
-      "size": ["S", "M", "L"],
+      "size": ["XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -94,7 +94,7 @@
       "price": "1200",
       "category": "Socks",
       "color": ["deep purple", "Brilliant blue", "Byzantine", "Grandma's apples", "Intense yellow-green", "Moderate purple red", "Bananamania", "Olive Green Crayola"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["XXL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -106,7 +106,7 @@
       "price": "1250",
       "category": "Socks",
       "color": ["Moderate purple red", "Byzantine", "Magenta Crayola", "amaranth"],
-      "size": ["S", "M", "L", "XL", "XXL"],
+      "size": ["L"],
       "gender": ["Женский"]
     },
     {
@@ -166,7 +166,7 @@
       "price": "1400",
       "category": "Socks",
       "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "amaranth", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green"],
-      "size": ["S", "XL", "XXL", "2XL", "3XL"],
+      "size": ["S", "XXL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -190,7 +190,7 @@
       "price": "500",
       "category": "Socks",
       "color": ["black", "Olive Green Crayola", "Moderate purple red", "Gentle olive", "Intense yellow-green", "Magenta Crayola", "Asparagus Crayola", "Christmas tree color", "Light bluish green", "Brilliant blue", "Cadet Blue Crayola", "deep purple"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["S", "M"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -202,7 +202,7 @@
       "price": "999",
       "category": "Socks",
       "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "amaranth"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["2XL", "3XL"],
       "gender": ["Женский"]
     },
     {
@@ -239,7 +239,7 @@
       "category": "Socks",
       "color": ["Christmas tree color"],
       "size": ["S"],
-      "gender": ["Женский", "Мужской"]
+      "gender": ["Женский"]
     },
     {
       "id": "20220020222",
@@ -250,8 +250,8 @@
       "price": "769",
       "category": "Socks",
       "color": ["Magenta Crayola", "Dark salmon"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
-      "gender": ["Женский", "Мужской"]
+      "size": ["S", "M", "2XL", "3XL"],
+      "gender": ["Мужской"]
     },
     {
       "id": "360002120",
@@ -262,8 +262,8 @@
       "price": "100",
       "category": "Socks",
       "color": ["Intense yellow-green", "Brilliant green"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
-      "gender": ["Женский", "Мужской"]
+      "size": ["S", "L", "2XL"],
+      "gender": ["Мужской"]
     },
     {
       "vendorCode": "p18",
@@ -273,8 +273,8 @@
       "price": "1399",
       "category": "Socks",
       "color": ["Gentle olive"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
-      "gender": ["Женский", "Мужской"]
+      "size": ["M", "XL", "2XL", "3XL"],
+      "gender": ["Женский"]
     },
     {
       "vendorCode": "p19",
@@ -284,7 +284,7 @@
       "price": "134",
       "category": "Socks",
       "color": ["Brilliant blue"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["S", "M", "L", "XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -295,7 +295,7 @@
       "price": "837",
       "category": "Socks",
       "color": ["Intense yellowish green"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["S", "M", "XL", "2XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -306,8 +306,8 @@
       "price": "661",
       "category": "Socks",
       "color": ["Cadet Blue Crayola", "Gentle olive", "Byzantine"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
-      "gender": ["Женский", "Мужской"]
+      "size": ["S", "M", "XL", "2XL"],
+      "gender": ["Женский"]
     },
     {
       "vendorCode": "p22",
@@ -317,8 +317,8 @@
       "price": "876",
       "category": "Socks",
       "color": ["White"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
-      "gender": ["Женский", "Мужской"]
+      "size": ["3XL"],
+      "gender": ["Мужской"]
     },
     {
       "vendorCode": "w1",
@@ -551,7 +551,7 @@
       "price": "2350",
       "category": "sweatshirts",
       "color": ["Byzantine", "Magenta Crayola", "Dark salmon", "Moderate purple red", "black", "amaranth", "White"],
-      "size": ["S","XL", "XXL", "2XL", "3XL"],
+      "size": ["S","XL"],
       "gender": ["Женский"]
     },
     {
@@ -573,7 +573,7 @@
       "price": "4699",
       "category": "sweatshirts",
       "color": ["Byzantine", "Moderate purple red", "Magenta Crayola", "amaranth", "deep purple", "Persian indigo", "Christmas tree color", "Grandma's apples", "Light bluish green"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["3XL"],
       "gender": ["Женский"]
     },
     {
@@ -584,7 +584,7 @@
       "price": "3080",
       "category": "sweatshirts",
       "color": ["White", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green", "Asparagus Crayola", "Intense yellow-green", "Brilliant green", "Gentle olive", "Olive Green Crayol", "black"],
-      "size": ["S", "M", "L", "XL"],
+      "size": ["XL"],
       "gender": ["Мужской"]
     },
     {
@@ -595,7 +595,7 @@
       "price": "2250",
       "category": "sweatshirts",
       "color": ["Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["2XL"],
       "gender": ["Мужской"]
     },
     {
@@ -606,7 +606,7 @@
       "price": "1900",
       "category": "sweatshirts",
       "color": ["Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola"],
-      "size": ["XL", "XXL", "2XL", "3XL"],
+      "size": ["XXL"],
       "gender": ["Мужской"]
     },
     {
@@ -617,7 +617,7 @@
       "price": "2900",
       "category": "sweatshirts",
       "color": ["Dark salmon", "Asparagus Crayola", "Persian indigo", "Cadet Blue Crayola", "deep purple", "black"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["M"],
       "gender": ["Женский", "Мужской"]
     },
 
@@ -752,7 +752,7 @@
       "price": "7777",
       "category": "Trousers",
       "color": ["White", "black"],
-      "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["2XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -763,7 +763,7 @@
       "price": "13800",
       "category": "Trousers",
       "color": ["Bananamania", "black", "White", "Cadet Blue Crayola", "Dark salmon"],
-      "size": ["S", "M", "L", "3XL"],
+      "size": ["M"],
       "gender": ["Женский", "Мужской"]
     },
     {
@@ -787,7 +787,7 @@
       "price": "1550",
       "category": "Trousers",
       "color": [],
-      "size": ["L", "XL", "XXL", "2XL", "3XL"],
+      "size": ["L"],
       "gender": ["Мужской"]
     },
     {
@@ -799,7 +799,7 @@
       "price": "3100",
       "category": "Trousers",
       "color": [],
-      "size": ["S", "M", "L", "3XL"],
+      "size": ["3XL"],
       "gender": ["Мужской"]
     },
     {
@@ -823,7 +823,7 @@
       "price": "6300",
       "category": "Trousers",
       "color": ["Christmas tree color", "Intense yellow-green", "Olive Green Crayola", "Bananamania", "black"],
-      "size": ["XL", "XXL", "2XL", "3XL"],
+      "size": ["XL", "3XL"],
       "gender": ["Женский"]
     },
     {
@@ -1045,16 +1045,10 @@
       "parameter": "По популярности"
     },
     {
-      "parameter": "По рейтингу"
-    },
-    {
       "parameter": "По возрастанию цены"
     },
     {
       "parameter": "По убыванию цены"
-    },
-    {
-      "parameter": "По новинкам"
     },
     {
       "parameter": "Сначала выгодные"
@@ -1067,10 +1061,6 @@
       "category": "gender",
       "themeCheckbox": "standard",
       "listItemFiltered": [
-        {
-          "name": "Все",
-          "label": "Все"
-        },
         {
           "name": "Мужской",
           "label": "Мужской"
@@ -1256,5 +1246,4 @@
       ]
     }
   ]
-
 }

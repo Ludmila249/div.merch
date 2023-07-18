@@ -28,7 +28,7 @@ export default {
     }),
     cardsList() {
       const data = [[]];
-      let count = 11;
+      let count = 12;
       let countIndex = 0;
       const page = this.page || 0;
 
@@ -36,7 +36,7 @@ export default {
         if (index <= count) {
           data[countIndex].push(element);
           if (index === count) {
-            count += 11;
+            count += 12;
             countIndex += 1;
             data.push([page]);
           }

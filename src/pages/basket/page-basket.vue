@@ -31,9 +31,9 @@
           <div class="basket__checkbox">
             <span class="basket__checked" />
             <p class="basket__checkbox-text">
-              Соглашаюсь с&nbsp;<a class="basket__rules" href="#"
-                >правилами пользования интернет-магазина</a
-              >
+              Соглашаюсь с&nbsp;<router-link class="basket__rules" to="/terms-use/"
+                >правилами пользования интернет-магазина
+              </router-link>
             </p>
           </div>
         </div>

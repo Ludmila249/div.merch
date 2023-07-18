@@ -44,7 +44,6 @@ export default {
     selectOption(item) {
       this.$emit('select', item);
       this.openItemSelect = false;
-      console.log(item);
     },
     hideSelect() {
       this.openItemSelect = false;

@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       selectShowItems: null,
-      selectedName: 11,
+      selectedName: 12,
     };
   },
   computed: {

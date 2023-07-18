@@ -5,6 +5,7 @@ import MainPage from '@/pages/main/page-main.vue';
 import CatalogPage from '../pages/catalog/page-catalog.vue';
 import ProductDetailsPage from '../pages/product-details/page-product-details.vue';
 import BasketPage from '../pages/basket/page-basket.vue';
+import TermsUse from '../pages/terms-use/terms-use.vue';
 
 const pathToRegexpOptions = {
   strict: true,
@@ -42,6 +43,12 @@ export default new Router({
       path: '/basket/',
       name: 'basket',
       component: BasketPage,
+      pathToRegexpOptions,
+    },
+    {
+      path: '/terms-use/',
+      name: 'terms-use',
+      component: TermsUse,
       pathToRegexpOptions,
     },
     // {
