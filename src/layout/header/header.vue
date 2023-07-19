@@ -1,16 +1,30 @@
 <template>
   <div class="container">
     <div class="header">
-      <logo-div />
-      <nav class="header__navigation">
-        <router-link
-          v-for="item in menu"
-          :key="item.text"
-          class="header__link-nav"
-          :to="item.href"
-          >{{ item.text }}</router-link
-        >
-      </nav>
+      <logo-div class="header__logo-div" />
+      <div class="header__menu">
+        <button :class="bem('header__burger', { openMenuMobile })" @click="clickBurger">
+          <span class="header__burger-line header__burger-line_top" />
+          <span class="header__burger-line" />
+          <span class="header__burger-line header__burger-line_bottom" />
+        </button>
+        <div :class="bem('header__navigation-wrap', { openMenuMobile })" />
+        <nav :class="bem('header__navigation', { openMenuMobile })">
+          <button class="header__button-close-mobile" @click="closeMenu">
+            <div>
+              <span class="header__close header__close_top" />
+              <span class="header__close header__close_bottom" />
+            </div>
+          </button>
+          <router-link
+            v-for="item in menu"
+            :key="item.text"
+            class="header__link-nav"
+            :to="item.href"
+            >{{ item.text }}</router-link
+          >
+        </nav>
+      </div>
       <div class="header__icon-tools">
         <div class="header__search-wrap">
           <input :class="bem('header__search', { openSearch })" type="search" />
@@ -45,6 +59,7 @@ export default {
   },
   data() {
     return {
+      openMenuMobile: false,
       openSearch: false,
       menu: [
         {
@@ -69,6 +84,12 @@ export default {
   methods: {
     clickSearch() {
       this.openSearch = !this.openSearch;
+    },
+    clickBurger() {
+      this.openMenuMobile = true;
+    },
+    closeMenu() {
+      this.openMenuMobile = false;
     },
   },
 };
