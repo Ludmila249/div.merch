@@ -28,7 +28,6 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
 import HeaderBlock from '../../layout/header/header.vue';
 import FooterBlock from '../../layout/footer/footer.vue';
 
@@ -42,15 +41,42 @@ export default {
     return {
       selectShowItems: null,
       selectedName: 12,
+      showItems: [
+        {
+          parameter: 6,
+        },
+        {
+          parameter: 12,
+        },
+        {
+          parameter: 24,
+        },
+        {
+          parameter: 36,
+        },
+        {
+          parameter: 48,
+        },
+        {
+          parameter: 60,
+        },
+      ],
+      sortingElements: [
+        {
+          parameter: 'По популярности',
+        },
+        {
+          parameter: 'По возрастанию цены',
+        },
+        {
+          parameter: 'По убыванию цены',
+        },
+        {
+          parameter: 'Сначала выгодные',
+        },
+      ],
     };
   },
-  computed: {
-    ...mapState({
-      showItems: (state) => state.bunker.showItems,
-      sortingElements: (state) => state.bunker.sortingElements,
-    }),
-  },
-
   methods: {
     optionSelect(item) {
       this.selectedName = item.parameter;

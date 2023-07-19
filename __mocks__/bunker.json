@@ -266,6 +266,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "2409793334",
       "vendorCode": "p18",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -277,6 +278,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "2154896620",
       "vendorCode": "p19",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -288,6 +290,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "3265412333",
       "vendorCode": "p20",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -299,6 +302,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2200205548",
       "vendorCode": "p21",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -310,6 +314,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "2005648975",
       "vendorCode": "p22",
       "src": "../static/socks.png",
       "type": "Носки мужские",
@@ -321,6 +326,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "2143336800",
       "vendorCode": "w1",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -332,6 +338,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2215478999",
       "vendorCode": "w2",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -343,6 +350,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "7849333300",
       "vendorCode": "w3",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -354,6 +362,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "3266533308",
       "vendorCode": "w6",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -365,6 +374,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "48902250311",
       "vendorCode": "w7",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -376,6 +386,7 @@
       "gender": ["Женский"]
     },
     {
+      "id": "5632897400",
       "vendorCode": "w8",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -387,6 +398,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "669805444",
       "vendorCode": "w9",
       "src": "../static/Windbreakers.jpg",
       "type": "Ветровки",
@@ -397,8 +409,8 @@
       "size": ["S", "M", "L"],
       "gender": ["Женский"]
     },
-
     {
+      "id": "4587996665",
       "vendorCode": "A1",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
@@ -410,6 +422,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "3698888021",
       "vendorCode": "A2",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
@@ -421,6 +434,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "5660236541",
       "vendorCode": "A3",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
@@ -432,39 +446,43 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "69874444789",
       "vendorCode": "A4",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
       "name": "Дизайнер с душой",
       "price": "5050",
       "category": "Anoraki",
-      "color": ["black", "sky blue", "Light grey-blue", "Brilliant blue", "pastel turquoise", "White"],
+      "color": ["sky blue", "Light grey-blue", "Brilliant blue", "pastel turquoise"],
       "size": ["2XL"],
       "gender": ["Мужской"]
     },
     {
+      "id": "8457115201",
       "vendorCode": "A5",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
       "name": "Дизайнер с душой",
       "price": "11999",
       "category": "Anoraki",
-      "color": ["Dark salmon", "Magenta Crayola", "Byzantine", "Intense yellow-green", "Brilliant green", "Gentle olive", "Light grey-blue", "Moderate purple red", "sky blue", "Olive Green Crayola", "Bananamania", "black"],
+      "color": ["black"],
       "size": ["3XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "9852220214",
       "vendorCode": "A6",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
       "name": "Дизайнер с душой",
       "price": "10800",
       "category": "Anoraki",
-      "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "amaranth", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green", "Asparagus Crayola"],
+      "color": ["White"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский"]
     },
     {
+      "id": "4111478965",
       "vendorCode": "A7",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
@@ -476,6 +494,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2300147897",
       "vendorCode": "A8",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
@@ -487,17 +506,19 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "2236598440",
       "vendorCode": "A9",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
       "name": "Дизайнер с душой",
       "price": "7450",
       "category": "Anoraki",
-      "color": ["White", "pastel turquoise", "Brilliant blue", "Dark salmon", "Bananamania", "black"],
+      "color": ["pastel turquoise", "Brilliant blue", "Dark salmon", "Bananamania", "black"],
       "size": ["S", "M", "L", "XL", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "5898885252",
       "vendorCode": "A10",
       "src": "../static/anorak.jpg",
       "type": "Анораки",
@@ -508,8 +529,8 @@
       "size": ["S", "M", "L"],
       "gender": ["Женский"]
     },
-
     {
+      "id": "6597721440",
       "vendorCode": "S1",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
@@ -519,20 +540,21 @@
       "color": ["White", "deep purple", "pastel turquoise", "Cadet Blue Crayola", "Persian indigo", "Brilliant blue", "Light grey-blue", "sky blue", "black"],
       "size": ["S", "M", "XXL", "2XL", "3XL"],
       "gender": ["Женский", "Мужской"]
-    }
-    ,
+    },
     {
+      "id": "6598870201",
       "vendorCode": "S2",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
       "name": "Дизайнер с душой",
       "price": "1000",
       "category": "sweatshirts",
-      "color": ["black", "Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola", "Dark salmon"],
+      "color": ["black"],
       "size": ["S", "M", "L", "XL"],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "236547895",
       "vendorCode": "S3",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
@@ -544,28 +566,31 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "6489551200",
       "vendorCode": "S4",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
       "name": "Дизайнер с душой",
       "price": "2350",
       "category": "sweatshirts",
-      "color": ["Byzantine", "Magenta Crayola", "Dark salmon", "Moderate purple red", "black", "amaranth", "White"],
+      "color": ["White"],
       "size": ["S","XL"],
       "gender": ["Женский"]
     },
     {
+      "id": "3258749990",
       "vendorCode": "S5",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
       "name": "Дизайнер с душой",
       "price": "3200",
       "category": "sweatshirts",
-      "color": ["black", "Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola", "Dark salmon", "Asparagus Crayola", "Intense yellowish green"],
+      "color": ["Bananamania", "Olive Green Crayola", "sky blue", "Moderate purple red", "Light grey-blue", "Gentle olive", "Brilliant green", "Intense yellow-green", "Byzantine", "Magenta Crayola", "Dark salmon", "Asparagus Crayola", "Intense yellowish green"],
       "size": ["S", "M", "L"],
       "gender": ["Женский"]
     },
     {
+      "id": "7854774522",
       "vendorCode": "S6",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
@@ -577,17 +602,19 @@
       "gender": ["Женский"]
     },
     {
+      "id": "1212145987",
       "vendorCode": "S7",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
       "name": "Дизайнер с душой",
       "price": "3080",
       "category": "sweatshirts",
-      "color": ["White", "Light bluish green", "Grandma's apples", "Christmas tree color", "Intense yellowish green", "Asparagus Crayola", "Intense yellow-green", "Brilliant green", "Gentle olive", "Olive Green Crayol", "black"],
+      "color": ["Byzantine"],
       "size": ["XL"],
       "gender": ["Мужской"]
     },
     {
+      "id": "5548902000",
       "vendorCode": "S8",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
@@ -599,6 +626,7 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "3258589964",
       "vendorCode": "S9",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
@@ -610,18 +638,19 @@
       "gender": ["Мужской"]
     },
     {
+      "id": "3066985454",
       "vendorCode": "S10",
       "src": "../static/sweatshirts.jpg",
       "type": "Свитшоты",
       "name": "Дизайнер с душой",
       "price": "2900",
       "category": "sweatshirts",
-      "color": ["Dark salmon", "Asparagus Crayola", "Persian indigo", "Cadet Blue Crayola", "deep purple", "black"],
+      "color": ["Dark salmon", "Asparagus Crayola", "Persian indigo", "Cadet Blue Crayola", "deep purple"],
       "size": ["M"],
       "gender": ["Женский", "Мужской"]
     },
-
     {
+      "id": "9875552032",
       "vendorCode": "K1",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -633,6 +662,7 @@
       "gender": []
     },
     {
+      "id": "118585163",
       "vendorCode": "K2",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -644,6 +674,7 @@
       "gender": []
     },
     {
+      "id": "3324243254",
       "vendorCode": "K3",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -655,6 +686,7 @@
       "gender": []
     },
     {
+      "id": "2588525888",
       "vendorCode": "K4",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -666,6 +698,7 @@
       "gender": []
     },
     {
+      "id": "123123123",
       "vendorCode": "K6",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
@@ -677,74 +710,79 @@
       "gender": []
     },
     {
+      "id": "487999696",
       "vendorCode": "K7",
       "src": "../static/keyrings.png",
       "type": "Брелоки",
       "name": "Брелоки с душой",
       "price": "500",
       "category": "keyrings",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "color": ["White"],
       "size": [],
       "gender": []
     },
-
     {
+      "id": "3632110104",
       "vendorCode": "B1",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
       "name": "Браслеты с душой",
       "price": "580",
       "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "color": ["amaranth", "Grandma's apples", "Asparagus Crayola", "Byzantine"],
       "size": [],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "659884477",
       "vendorCode": "B2",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
       "name": "Браслеты с душой",
       "price": "374",
       "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "color": ["Brilliant green", "Persian indigo", "Brilliant blue", "sky blue", "White"],
       "size": [],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "232558596",
       "vendorCode": "B3",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
       "name": "Браслеты с душой",
       "price": "2380",
       "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "color": ["Gentle olive"],
       "size": [],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "320005588",
       "vendorCode": "B4",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
       "name": "Браслеты с душой",
       "price": "13700",
       "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "color": ["Bananamania", "Olive Green Crayola"],
       "size": [],
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "214444587",
       "vendorCode": "B5",
       "src": "../static/Bracelets.jpg",
       "type": "Браслеты",
       "name": "Браслеты с душой",
       "price": "4400",
       "category": "Bracelets",
-      "color": ["deep purple", "Persian indigo", "Brilliant blue", "sky blue", "White"],
+      "color": ["black"],
       "size": [],
       "gender": ["Женский", "Мужской"]
     },
-
     {
+      "id": "87979987741",
       "vendorCode": "t1",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -756,6 +794,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
+      "id": "4585222003",
       "vendorCode": "t2",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -767,7 +806,7 @@
       "gender": ["Женский", "Мужской"]
     },
     {
-      "id": "785520941",
+      "id": "7855209411",
       "vendorCode": "t3",
       "src": "../static/Trousers.jpg",
       "type": "Брюки",
@@ -838,18 +877,12 @@
       "size": ["S", "3XL"],
       "gender": ["Женский", "Мужской"]
     }
-
   ],
 
   "gender": [
     {
-      "name": "all",
-      "gender": "Все"
-    },
-    {
       "name": "man",
       "gender": "Мужской"
-
     },
     {
       "name": "woman",
@@ -1015,43 +1048,6 @@
     {
       "name": "black",
       "background": "#000000"
-    }
-  ],
-
-  "showItems": [
-    {
-      "parameter": 6
-    },
-    {
-      "parameter": 12
-    },
-    {
-      "parameter": 24
-    },
-    {
-      "parameter": 36
-    },
-    {
-      "parameter": 48
-    },
-    {
-      "parameter": 60
-    }
-
-  ],
-
-  "sortingElements": [
-    {
-      "parameter": "По популярности"
-    },
-    {
-      "parameter": "По возрастанию цены"
-    },
-    {
-      "parameter": "По убыванию цены"
-    },
-    {
-      "parameter": "Сначала выгодные"
     }
   ],
 

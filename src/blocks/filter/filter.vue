@@ -166,7 +166,7 @@ export default {
           if (elem[category] === value && Boolean(typeof elem[category] === 'string')) {
             return elem;
           }
-          if (elem[category].includes(value)) {
+          if (elem[category.toLowerCase()].includes(value)) {
             return elem;
           }
           return null;

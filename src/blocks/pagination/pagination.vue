@@ -7,7 +7,10 @@
         </button>
       </li>
       <li v-for="item in itemNumbers" :key="item">
-        <button class="pagination__button" @click="handlerClick(item)">
+        <button
+          :class="{ pagination__button: true, 'active-page': numbers }"
+          @click="handlerClick(item)"
+        >
           {{ item }}
         </button>
       </li>
