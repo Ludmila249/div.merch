@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <header-block />
+    <transition name="header">
+      <header-block />
+    </transition>
     <div class="page-catalog">
       <div class="page-catalog__wrap-info">
         <bread-crumbs />

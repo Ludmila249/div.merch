@@ -8,26 +8,32 @@
           <span class="header__burger-line" />
           <span class="header__burger-line header__burger-line_bottom" />
         </button>
-        <div :class="bem('header__navigation-wrap', { openMenuMobile })" />
-        <nav :class="bem('header__navigation', { openMenuMobile })">
-          <button class="header__button-close-mobile" @click="closeMenu">
-            <div>
-              <span class="header__close header__close_top" />
-              <span class="header__close header__close_bottom" />
-            </div>
-          </button>
-          <router-link
-            v-for="item in menu"
-            :key="item.text"
-            class="header__link-nav"
-            :to="item.href"
-            >{{ item.text }}</router-link
-          >
-        </nav>
+        <div :class="bem('header__navigation-wrap', { openMenuMobile })">
+          <nav :class="bem('header__navigation', { openMenuMobile })">
+            <button class="header__button-close-mobile" @click="closeMenu">
+              <div>
+                <span class="header__close header__close_top" />
+                <span class="header__close header__close_bottom" />
+              </div>
+            </button>
+            <router-link
+              v-for="item in menu"
+              :key="item.text"
+              class="header__link-nav"
+              :to="item.href"
+              >{{ item.text }}</router-link
+            >
+          </nav>
+        </div>
       </div>
       <div class="header__icon-tools">
         <div class="header__search-wrap">
-          <input :class="bem('header__search', { openSearch })" type="search" />
+          <input
+            v-model="searchValue"
+            :class="bem('header__search', { openSearch })"
+            type="search"
+            @keyup.enter="search(searchValue)"
+          />
           <button class="header__wrap-icon" @click="clickSearch">
             <icon-search class="header__icon" />
           </button>
@@ -44,6 +50,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 import LogoDiv from '../../images/logo-div.svg?inline';
 import IconSearch from '../../images/search.svg?inline';
 import IconUser from '../../images/user.svg?inline';
@@ -61,6 +68,7 @@ export default {
     return {
       openMenuMobile: false,
       openSearch: false,
+      searchValue: '',
       menu: [
         {
           text: 'Главная',
@@ -81,6 +89,11 @@ export default {
       ],
     };
   },
+  computed: {
+    ...mapActions({
+      searchValueState: (state) => state.searchValue,
+    }),
+  },
   methods: {
     clickSearch() {
       this.openSearch = !this.openSearch;
@@ -91,6 +104,7 @@ export default {
     closeMenu() {
       this.openMenuMobile = false;
     },
+    search() {},
   },
 };
 </script>

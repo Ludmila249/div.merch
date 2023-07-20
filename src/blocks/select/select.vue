@@ -1,6 +1,6 @@
 <template>
   <div class="select">
-    <div class="select__header" @click="openMenuNumberItem">
+    <div class="select__header" @click="openMenuSelect">
       <slot /><arrow-select class="select__arrow" />
     </div>
     <div v-if="openItemSelect" class="select__main">
@@ -38,7 +38,7 @@ export default {
   //   document.removeEventListener('click', this.hideSelect.bind);
   // },
   methods: {
-    openMenuNumberItem() {
+    openMenuSelect() {
       this.openItemSelect = !this.openItemSelect;
     },
     selectOption(item) {

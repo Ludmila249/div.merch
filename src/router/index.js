@@ -51,12 +51,6 @@ export default new Router({
       component: TermsUse,
       pathToRegexpOptions,
     },
-    // {
-    //   path: '/sub/',
-    //   name: 'main',
-    //   component: SubPage,
-    //   pathToRegexpOptions,
-    // },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

@@ -38,22 +38,6 @@
     &_bottom {
       top: 29px;
     }
-
-    .header__burger_open & {
-      opacity: 0;
-
-      &_top {
-        opacity: 1;
-        top: 23px;
-        transform: rotate(-45deg);
-      }
-
-      &_bottom {
-        opacity: 1;
-        transform: rotate(45deg);
-        top: 23px;
-      }
-    }
   }
 
   &__button-close-mobile {
@@ -75,7 +59,7 @@
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: #30F;
+      color: #0300A9;
       transform: scale(1.05);
     }
   }
@@ -100,8 +84,8 @@
     color: #CCC;
 
     &_open-search {
-      left: -190px;
-      width: 215px;
+      left: -212px;
+      width: 235px;
       height: 48px;
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
@@ -137,25 +121,23 @@
 
     &__navigation-wrap {
       position: absolute;
-      display: none;
+      opacity: 0;
+      pointer-events: none;
       top: -24px;
       right: -40px;
       height: 100vh;
       width: 100vw;
-      background-color: #000;
-      opacity: 0.5;
+      background: rgba(0, 0, 0, 0.41961);
       z-index: 3;
 
       &_open-menu-mobile {
-        display: block;
+        opacity: 1;
+        pointer-events: all;
       }
     }
 
     &__navigation {
-      position: absolute;
-      display: none;
-      top: -24px;
-      right: -40px;
+      display: flex;
       flex-direction: column;
       justify-content: center;
       width: 300px;
@@ -163,22 +145,24 @@
       background-color: #FFF;
       margin-left: auto;
       z-index: 4;
-      transition: 0.2s ease-in-out;
+      box-shadow: 0 2.76389px 82.9167px rgba(125, 162, 227, 0.25);
+      transition: transform 0.2s ease-in-out;
+      transform: translateX(100px);
 
       &_open-menu-mobile {
-        display: flex;
+        transform: translateX(0);
       }
     }
 
     &__button-close-mobile {
       position: absolute;
       top: 10px;
-      right: 20px;
+      right: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 40px;
-      height: 40px;
+      width: 45px;
+      height: 45px;
       background-color: inherit;
     }
 
@@ -188,6 +172,8 @@
 
     &__close {
       position: absolute;
+      left: -13px;
+      top: 0;
       width: 25px;
       height: 2px;
       background-color: #CCC;
@@ -200,5 +186,26 @@
         transform: rotate(-45deg);
       }
     }
+
+    &__link-nav {
+      line-height: 150%;
+      font-size: 16px;
+      padding: 5px 0;
+    }
+  }
+
+  input[type=search] {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  input[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: url('../../images//cross.png');
+    background-size: 100%;
+    margin-left: 5px;
   }
 }
