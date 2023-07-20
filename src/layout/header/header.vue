@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex';
+import { mapActions, mapGetters } from 'vuex';
 import LogoDiv from '../../images/logo-div.svg?inline';
 import IconSearch from '../../images/search.svg?inline';
 import IconUser from '../../images/user.svg?inline';
@@ -90,9 +90,7 @@ export default {
     };
   },
   computed: {
-    ...mapActions({
-      searchValueState: (state) => state.searchValue,
-    }),
+    ...mapGetters(['SEARCH_VALUE_GET']),
   },
   methods: {
     clickSearch() {
@@ -104,7 +102,11 @@ export default {
     closeMenu() {
       this.openMenuMobile = false;
     },
-    search() {},
+    ...mapActions(['SEARCH_VALUE']),
+    search(value) {
+      this.SEARCH_VALUE(value);
+      console.log('value', this.value);
+    },
   },
 };
 </script>

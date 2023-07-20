@@ -31,6 +31,9 @@ export default new Vuex.Store({
       state.windowWidth = width;
       state.windowHeight = height;
     },
+    SET_SEARCH_VALUE: (state, value) => {
+      state.searchValue = value;
+    },
   },
   getters: {
     isAuthorized(state) {
@@ -55,6 +58,14 @@ export default new Vuex.Store({
     },
     isMobileSmall(state) {
       return !!window.matchMedia(state.cssVars.mobileSmall).matches;
+    },
+    SEARCH_VALUE_GET(state) {
+      return state.searchValue;
+    },
+  },
+  actions: {
+    SEARCH_VALUE({ commit }, value) {
+      commit('SET_SEARCH_VALUE', value);
     },
   },
 });
