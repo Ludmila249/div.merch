@@ -3,9 +3,11 @@
     <button class="filter__open-filter-mobile" @click="openedFilterMobile">
       <img class="filter__icon-filter" src="../../images/filter-icon.png" alt="" />
     </button>
-    <div class="catalog__filter-wrap">
-      <button class="filter__close-filter-mobile" />
-      <div class="catalog__filter filter">
+    <div :class="bem('catalog__filter-wrap', { openFilterMobile })" @click.self="closedFilter">
+      <button class="filter__close-filter-mobile" @click="closedFilter">
+        <img src="../../images//cross.png" alt="" />
+      </button>
+      <div :class="bem('catalog__filter filter', { openFilterMobile })">
         <div class="filter__chapter">
           <p class="filter__chapter-title">Цена</p>
           <div class="filter__price">
@@ -133,7 +135,6 @@ export default {
     },
   },
   mounted() {
-    console.log('arrayChecked', this.arrayChecked);
     this.sortByPrice();
   },
   methods: {
@@ -205,6 +206,9 @@ export default {
     openedFilterMobile() {
       console.log('click');
       this.$emit('openFilter', this.openFilterMobile);
+    },
+    closedFilter() {
+      this.$emit('closeFilter', this.openFilterMobile);
     },
   },
 };

@@ -10,23 +10,30 @@
 
   &__filter-wrap {
     @media @tablet {
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
-      background-color: #FFF;
+      background: rgba(0, 0, 0, 0.41961);
       width: 100%;
       z-index: 3;
-      display: none;
+      height: 100%;
+      box-sizing: border-box;
+      overflow-y: auto;
+      opacity: 0;
+      pointer-events: none;
+
+      &_open-filter-mobile {
+        opacity: 1;
+        pointer-events: all;
+      }
     }
   }
 
   &__filter {
     @media @tablet {
-      display: flex;
-      flex-direction: column;
-      width: fit-content;
+      display: block;
+      width: 100%;
       margin-left: auto;
-      margin-top: 50px;
     }
   }
 
@@ -48,7 +55,13 @@
     max-width: 340px;
     padding: 32px;
     border: 1px solid #F2F2F2;
+    background-color: #FFF;
     border-radius: 24px;
+
+    @media @tablet {
+      margin-left: auto;
+      border-radius: 0;
+    }
   }
 
   &__button-reset {
@@ -88,11 +101,31 @@
 }
 
 .filter {
+  @media @tablet {
+    display: block;
+    width: 100%;
+    max-width: 340px;
+    margin-left: auto;
+    transform: translateX(100px);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2.76389px 82.9167px rgba(125, 162, 227, 0.25);
+
+    &_open-filter-mobile {
+      transform: translateX(0);
+    }
+  }
+
   &__section {
     width: 340px;
     padding: 32px;
     border-radius: 24px;
     border: 1px solid #F2F2F2;
+    background-color: #FFF;
+
+    @media @tablet {
+      margin-left: auto;
+      border-radius: 0;
+    }
   }
 
   &__open-filter-mobile {
@@ -125,12 +158,12 @@
 
     @media @tablet {
       position: absolute;
-      top: 0;
-      right: 0;
+      top: 5px;
+      right: 5px;
       width: 30px;
       height: 30px;
-      background-color: #000;
       display: flex;
+      background-color: #FFF;
       align-items: center;
       justify-content: center;
       z-index: 5;
@@ -153,10 +186,18 @@
   }
 
   &__chapter {
-    width: 340px;
+    width: 100%;
+    max-width: 340px;
     padding: 32px;
     border-radius: 24px;
     border: 1px solid #F2F2F2;
+    background-color: #FFF;
+
+    @media @tablet {
+      margin-left: auto;
+      border-radius: 0;
+      padding-top: 40px;
+    }
   }
 
   &__chapter-title {

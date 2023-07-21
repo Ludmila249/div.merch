@@ -19,7 +19,12 @@
         </div>
       </div>
       <div class="page-catalog__catalog">
-        <filter-block :quantity-card="selectedName" :open-filter-mobile="openFilterMobile" />
+        <filter-block
+          :quantity-card="selectedName"
+          :open-filter-mobile="openFilterMobile"
+          @openFilter="openFilter"
+          @closeFilter="closeFilter"
+        />
         <!-- <div>
           <catalog-block />
         </div> -->
@@ -84,6 +89,13 @@ export default {
     optionSelect(item) {
       this.selectedName = item.parameter;
       console.log('selectedName', this.selectedName);
+    },
+    openFilter() {
+      this.openFilterMobile = true;
+      console.log('openFilterMobile', this.openFilterMobile);
+    },
+    closeFilter() {
+      this.openFilterMobile = false;
     },
   },
 };

@@ -107,11 +107,11 @@ export default {
     },
     closeMenu() {
       this.openMenuMobile = false;
-      console.log('click');
     },
     ...mapActions(['SEARCH_VALUE']),
     search(value) {
       this.SEARCH_VALUE(value);
+      // this.$router.push()
       console.log('value', this.value);
     },
   },
