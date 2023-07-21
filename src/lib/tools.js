@@ -76,3 +76,10 @@ export function getAvatarUrl(url, alias) {
 export function camelToKebab(string) {
   return string.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
 }
+
+export function scrollLock(status) {
+  // eslint-disable-next-line no-unused-expressions
+  status
+    ? document.querySelector('html').classList.add('scroll-lock')
+    : document.querySelector('html').classList.remove('scroll-lock');
+}

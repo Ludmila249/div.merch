@@ -1,59 +1,70 @@
 <template>
   <div class="catalog">
-    <div class="catalog__filter filter">
-      <div class="filter__chapter">
-        <p class="filter__chapter-title">Цена</p>
-        <div class="filter__price">
-          <p>от {{ minPrice }}₽</p>
-          <p>до {{ maxPrice }}₽</p>
+    <button class="filter__open-filter-mobile" @click="openedFilterMobile">
+      <img class="filter__icon-filter" src="../../images/filter-icon.png" alt="" />
+    </button>
+    <div class="catalog__filter-wrap">
+      <button class="filter__close-filter-mobile" />
+      <div class="catalog__filter filter">
+        <div class="filter__chapter">
+          <p class="filter__chapter-title">Цена</p>
+          <div class="filter__price">
+            <p>от {{ minPrice }}₽</p>
+            <p>до {{ maxPrice }}₽</p>
+          </div>
+          <div class="filter__range-slider">
+            <input
+              v-model.number="minPrice"
+              type="range"
+              min="100"
+              max="24000"
+              step="1"
+              @change="setRangeSlider"
+            />
+            <input
+              v-model.number="maxPrice"
+              type="range"
+              min="100"
+              max="24000"
+              step="1"
+              @change="setRangeSlider"
+            />
+          </div>
         </div>
-        <div class="filter__range-slider">
-          <input
-            v-model.number="minPrice"
-            type="range"
-            min="100"
-            max="24000"
-            step="1"
-            @change="setRangeSlider"
-          />
-          <input
-            v-model.number="maxPrice"
-            type="range"
-            min="100"
-            max="24000"
-            step="1"
-            @change="setRangeSlider"
-          />
+        <div v-for="item in filter" :key="item.title" class="filter__section">
+          <p class="filter__section-title">{{ item.title }}</p>
+          <div
+            :class="
+              bem('filter__wrap-item', {
+                itemsRow: item.themeCheckbox === 'typeSize' || item.themeCheckbox === 'typeColor',
+              })
+            "
+          >
+            <checkbox-block
+              v-for="elem in item.listItemFiltered"
+              :key="elem.name"
+              :elem="elem"
+              :list-item="item"
+              :theme-checkbox="item.themeCheckbox"
+              :class="bem('checkbox-block', { size: item.themeCheckbox === 'typeSize' })"
+              @parameterToFilter="listChecked"
+              @change="clickArray"
+            />
+          </div>
         </div>
-      </div>
-      <div v-for="item in filter" :key="item.title" class="filter__section">
-        <p class="filter__section-title">{{ item.title }}</p>
-        <div
-          :class="
-            bem('filter__wrap-item', {
-              itemsRow: item.themeCheckbox === 'typeSize' || item.themeCheckbox === 'typeColor',
-            })
-          "
-        >
-          <checkbox-block
-            v-for="elem in item.listItemFiltered"
-            :key="elem.name"
-            :elem="elem"
-            :list-item="item"
-            :theme-checkbox="item.themeCheckbox"
-            :class="bem('checkbox-block', { size: item.themeCheckbox === 'typeSize' })"
-            @parameterToFilter="listChecked"
-            @change="clickArray"
-          />
+        <div class="catalog__button">
+          <button type="button" class="catalog__button-reset" @click="filterReset">Сбросить</button>
         </div>
-      </div>
-      <div class="catalog__button">
-        <button type="button" class="catalog__button-reset" @click="filterReset">Сбросить</button>
       </div>
     </div>
     <div class="catalog__list-product">
       <div class="catalog__list-wrap">
-        <card-block v-for="card in cardsList" :key="card.vendorCode" :card="card" />
+        <card-block
+          v-for="card in cardsList"
+          :key="card.vendorCode"
+          class="catalog__card"
+          :card="card"
+        />
       </div>
       <pagination-block
         class="catalog__pagination"
@@ -73,6 +84,10 @@ export default {
     quantityCard: {
       type: Number,
       default: 12,
+    },
+    openFilterMobile: {
+      type: Boolean,
+      default: false,
     },
   },
   data() {
@@ -186,6 +201,10 @@ export default {
       this.maxPrice = 24000;
       this.sortedProductsPrice = [...this.catalog];
       this.arrayChecked.length = 0;
+    },
+    openedFilterMobile() {
+      console.log('click');
+      this.$emit('openFilter', this.openFilterMobile);
     },
   },
 };

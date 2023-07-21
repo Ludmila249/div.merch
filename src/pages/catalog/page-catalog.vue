@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="page-catalog__catalog">
-        <filter-block :quantity-card="selectedName" />
+        <filter-block :quantity-card="selectedName" :open-filter-mobile="openFilterMobile" />
         <!-- <div>
           <catalog-block />
         </div> -->
@@ -43,6 +43,7 @@ export default {
     return {
       selectShowItems: null,
       selectedName: 12,
+      openFilterMobile: false,
       showItems: [
         {
           parameter: 6,

@@ -5,18 +5,30 @@
   background-color: #FFF;
   border-radius: 32px;
   padding: 40px;
-  overflow: hidden;
+
+  @media @tablet {
+    padding: 40px 20px;
+  }
 
   &__wrap-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+
+    @media @tablet {
+      display: block;
+    }
   }
 
   &__wrap-select {
     display: flex;
     align-items: center;
+
+    @media @tablet {
+      position: relative;
+      margin-top: 20px;
+    }
   }
 
   &__select {

@@ -5,10 +5,12 @@
   border-radius: 24px;
   border: 1px solid #F2F2F2;
   background: #FFF;
-  max-width: 340px;
-  width: 100%;
   padding: 32px;
   transition: 0.2s ease-in-out;
+
+  @media (max-width: 550px) {
+    padding: 15px;
+  }
 
   &__photo-product {
     width: 100%;
@@ -30,6 +32,14 @@
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 12px;
+
+    @media @tablet {
+      font-size: 16px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 14px;
+    }
   }
 
   &__price {
@@ -39,6 +49,14 @@
     font-weight: 500;
     line-height: 20px;
     transition: 0.2s ease-in-out;
+
+    @media @tablet {
+      font-size: 16px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 14px;
+    }
   }
 
   &:hover,

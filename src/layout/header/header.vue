@@ -21,8 +21,9 @@
               :key="item.text"
               class="header__link-nav"
               :to="item.href"
-              >{{ item.text }}</router-link
-            >
+              @click="closeMenu"
+              >{{ item.text }}
+            </router-link>
           </nav>
         </div>
       </div>
@@ -92,6 +93,11 @@ export default {
   computed: {
     ...mapGetters(['SEARCH_VALUE_GET']),
   },
+  watch: {
+    openMenuMobile(value) {
+      this.scrollLock(value);
+    },
+  },
   methods: {
     clickSearch() {
       this.openSearch = !this.openSearch;
@@ -101,6 +107,7 @@ export default {
     },
     closeMenu() {
       this.openMenuMobile = false;
+      console.log('click');
     },
     ...mapActions(['SEARCH_VALUE']),
     search(value) {

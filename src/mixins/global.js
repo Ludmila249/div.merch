@@ -1,10 +1,11 @@
 import Vue from 'vue';
-import { camelToKebab, reachGoal, getStaticUrl } from '@/lib/tools';
+import { camelToKebab, reachGoal, getStaticUrl, scrollLock } from '@/lib/tools';
 
 Vue.mixin({
   methods: {
     reachGoal,
     getStaticUrl,
+    scrollLock,
 
     bem(name, mods = {}) {
       const result = [name];
