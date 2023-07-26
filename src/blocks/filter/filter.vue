@@ -178,16 +178,30 @@ export default {
       } else {
         this.arrayChecked.push(value);
 
-        const data = this.catalog.filter((elem) => {
-          if (elem[category] === value && Boolean(typeof elem[category] === 'string')) {
-            return elem;
-          }
-          if (elem[category.toLowerCase()].includes(value)) {
-            return elem;
-          }
-          return null;
-        });
-        this.sortedProductsPrice.push(...data);
+        console.log('this.arrayChecked', this.arrayChecked);
+        if (this.arrayChecked.length >= 2) {
+
+          this.arrayChecked.forEach(elem => {
+            this.sortedProductsPrice = this.sortedProductsPrice.filter((item) => {
+              if (item[category] === elem && Boolean(typeof item[category] === 'string')) {
+                return item;
+              } else if (item[category.toLowerCase()].includes(elem)) {
+                return item;
+              }
+              return null;
+            });
+          });
+        } else {
+          const data = this.catalog.filter((elem) => {
+            if (elem[category] === value && Boolean(typeof elem[category] === 'string')) {
+              return elem;
+            } else if (elem[category.toLowerCase()].includes(value)) {
+              return elem;
+            }
+            return null;
+          });
+          this.sortedProductsPrice.push(...data);
+        }
       }
 
       if (this.arrayChecked.length === 0) {
